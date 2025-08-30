@@ -1,0 +1,104 @@
+[general]
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#465d61"
+blue = "#165a5d"
+cyan = "#298677"
+green = "#298657"
+magenta = "#d47787"
+red = "#c86174"
+white = "#eab8bb"
+yellow = "#c87c61"
+
+[colors.cursor]
+cursor = "#eab8bb"
+text = "#183539"
+
+[colors.dim]
+black = "#465d61"
+blue = "#165a5d"
+cyan = "#298677"
+green = "#298657"
+magenta = "#d47787"
+red = "#c86174"
+white = "#eab8bb"
+yellow = "#c87c61"
+
+[colors.normal]
+black = "#465d61"
+blue = "#165a5d"
+cyan = "#298677"
+green = "#298657"
+magenta = "#d47787"
+red = "#c86174"
+white = "#eab8bb"
+yellow = "#c87c61"
+
+[colors.primary]
+background = "#183539"
+dim_foreground = "#575c60"
+foreground = "#eab8bb"
+
+#[colors.search.footer_bar]
+#background = "#434c5e"
+#foreground = "#d8dee9"
+
+[colors.search.matches]
+background = "#c86174"
+foreground = "CellBackground"
+
+[colors.selection]
+background = "#c86174"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "#c86174"
+text = "#298657"
+
+[cursor]
+style = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 15.0
+
+[font.bold]
+family = "Iosevka Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Nerd Font Mono"
+style = "Regular"
+
+[scrolling]
+history = 5000
+
+[terminal]
+shell = "/bin/fish"
+
+[window]
+dynamic_padding = false
+opacity = 0.9
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 0
+y = 0
